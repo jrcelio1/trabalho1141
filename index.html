@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PC Componentes</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="#" class="logo">PC Componentes</a>
+      <button id="menu-toggle" aria-label="Abrir menu">☰</button>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#products">Componentes</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="container">
+        <h1>Monte seu PC com Qualidade</h1>
+        <p>Placas de vídeo, processadores, SSDs e muito mais com o melhor custo-benefício.</p>
+      </div>
+    </section>
+
+    <section id="products" class="container">
+      <h2>Componentes em Destaque</h2>
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="https://via.placeholder.com/300x200?text=Placa+de+V%C3%ADdeo" alt="Placa de Vídeo RTX 3060" />
+          <h3>Placa de Vídeo RTX 3060</h3>
+          <p class="price">R$ 2.399,00</p>
+          <button class="btn buy">Comprar</button>
+        </article>
+
+        <article class="product-card">
+          <img src="https://via.placeholder.com/300x200?text=Processador" alt="Processador Ryzen 5 5600X" />
+          <h3>Processador Ryzen 5 5600X</h3>
+          <p class="price">R$ 1.299,00</p>
+          <button class="btn buy">Comprar</button>
+        </article>
+
+        <article class="product-card">
+          <img src="https://via.placeholder.com/300x200?text=SSD" alt="SSD NVMe 1TB" />
+          <h3>SSD NVMe 1TB</h3>
+          <p class="price">R$ 499,90</p>
+          <button class="btn buy">Comprar</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="container">
+      <h2>Sobre Nós</h2>
+      <p>Na PC Componentes, você encontra tudo para montar ou atualizar seu computador com qualidade e segurança.</p>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contato</h2>
+      <form id="contact-form">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Mensagem</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 PC Componentes. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
